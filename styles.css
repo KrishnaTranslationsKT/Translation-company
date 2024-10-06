@@ -1,87 +1,84 @@
-/* Reset some default browser styles */
-* {
-    box-sizing: border-box;
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Header styles */
 header {
-    background-color: #0056b3; /* A deep blue */
+    background: #007BFF;
     color: white;
-    padding: 40px 20px;
+    padding: 20px;
     text-align: center;
 }
 
-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.2em;
-}
-
-/* Navigation styles */
 nav {
-    background-color: #004494; /* A slightly darker blue */
+    background: #0056b3;
     padding: 10px 0;
 }
 
 nav ul {
-    list-style: none;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Section styles */
 section {
     padding: 20px;
-    margin: 20px auto;
-    max-width: 800px; /* Centering the sections */
+    margin: 20px;
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    color: #0056b3; /* Match the header */
-    margin-bottom: 15px;
+h2 {
+    margin-bottom: 10px;
 }
 
-section p, section ul {
-    margin-bottom: 15px;
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007BFF;
+    color: white;
 }
 
-section ul {
-    padding-left: 20px;
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Form styles */
 form {
     display: flex;
     flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 form label {
@@ -96,7 +93,7 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #0056b3;
+    background: #007BFF;
     color: white;
     border: none;
     padding: 10px;
@@ -105,32 +102,5 @@ form button {
 }
 
 form button:hover {
-    background-color: #004494; /* Darker shade on hover */
-}
-
-/* Footer styles */
-footer {
-    background-color: #0056b3;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-footer ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
+    background: #0056b3;
 }
