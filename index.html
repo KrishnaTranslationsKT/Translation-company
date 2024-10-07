@@ -3,76 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Krishna Translations</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="https://github.com/KrishnaTranslationsKT/Translation-company/blob/main/Logo.png" alt="Company Logo" style="max-width: 200px;">
+        <img src="https://raw.githubusercontent.com/KrishnaTranslationsKT/Translation-company/main/Logo.png" alt="Krishna Translations Logo">
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#blog">Blog</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="services">
-            <h1>Our Services</h1>
-            
-            <div class="service">
-                <h2>Voice Over</h2>
-                <img src="https://github.com/KrishnaTranslationsKT/Translation-company/blob/main/Voice%20over.png" alt="Voice Over Image">
-                <p>Our voice-over services deliver high-quality audio for a variety of applications, ensuring your message resonates across different languages and cultures. Whether it's for advertisements, corporate training, or entertainment, our professional voice talent guarantees clarity and engagement.</p>
-            </div>
-
-            <div class="service">
-                <h2>Interpretation</h2>
-                <img src="https://github.com/KrishnaTranslationsKT/Translation-company/blob/main/Interpretation.gif" alt="Interpretation Image">
-                <p>We offer professional interpretation services for conferences, meetings, and events, bridging communication gaps in real-time. Our skilled interpreters are fluent in various languages, ensuring that your message is conveyed accurately and effectively.</p>
-            </div>
-
-            <div class="service">
-                <h2>Document Translation</h2>
-                <img src="https://github.com/KrishnaTranslationsKT/Translation-company/blob/main/Untitled%20design%20(1).png" alt="Document Translation Image">
-                <p>Our document translation services specialize in translating a wide range of documents, including legal, medical, and technical texts. With a commitment to accuracy and confidentiality, we ensure that your documents are translated to the highest standard.</p>
-            </div>
-
-            <div class="service">
-                <h2>Legal Translation</h2>
-                <img src="https://github.com/KrishnaTranslationsKT/Translation-company/blob/main/Untitled%20design.png" alt="Legal Translation Image">
-                <p>Our legal translation services are tailored for law firms and corporate clients, providing precise translations of contracts, agreements, and other legal documents. Our team understands the importance of legal terminology and compliance, ensuring your documents are handled with care.</p>
-            </div>
-
-            <div class="service">
-                <h2>Medical Translation</h2>
-                <img src="https://github.com/KrishnaTranslationsKT/Translation-company/blob/main/www.krishnatranslations.com.png" alt="Medical Translation Image">
-                <p>We offer specialized medical translation services, catering to hospitals, clinics, and pharmaceutical companies. Our translators are knowledgeable in medical terminology, ensuring that patient records, consent forms, and research documents are accurately translated.</p>
-            </div>
-
-            <div class="service">
-                <h2>Technical Translation</h2>
-                <img src="https://github.com/KrishnaTranslationsKT/Translation-company/blob/main/Krishna%20Translations.png" alt="Technical Translation Image">
-                <p>Our technical translation services focus on user manuals, product descriptions, and other technical documents. We ensure that complex information is conveyed clearly and concisely in the target language.</p>
-            </div>
-
-            <div class="service">
-                <h2>Subtitling</h2>
-                <img src="https://github.com/KrishnaTranslationsKT/Translation-company/blob/main/KRISHNA%20TRANSLATIONS.gif" alt="Subtitling Image">
-                <p>We provide professional subtitling services for videos, films, and online content. Our team ensures that subtitles are synchronized accurately with the audio while maintaining the essence of the original dialogue.</p>
-            </div>
+        <section id="about">
+            <h1>Welcome to Krishna Translations</h1>
+            <p>We offer professional translation services in over 150 languages with 21 years of expertise.</p>
+            <p><strong>Get a 10% discount on your first order!</strong></p>
         </section>
 
-        <section id="background">
-            <img src="https://github.com/KrishnaTranslationsKT/Translation-company/blob/main/background%20-%20cover.png" alt="Background Cover Image" style="width: 100%;">
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Voice Over</h3>
+                <img src="https://raw.githubusercontent.com/KrishnaTranslationsKT/Translation-company/main/Voice%20over.png" alt="Voice Over Service">
+                <p>High-quality voice-over services in multiple languages.</p>
+            </div>
+            <div class="service">
+                <h3>Interpretation</h3>
+                <img src="https://raw.githubusercontent.com/KrishnaTranslationsKT/Translation-company/main/Interpretation.gif" alt="Interpretation Service">
+                <p>Professional interpretation services for various settings.</p>
+            </div>
+            <div class="service">
+                <h3>Document Translation</h3>
+                <img src="https://raw.githubusercontent.com/KrishnaTranslationsKT/Translation-company/main/Untitled%20design%20(1).png" alt="Document Translation Service">
+                <p>Accurate document translation in over 150 languages.</p>
+            </div>
+            <div class="service">
+                <h3>Legal Translation</h3>
+                <img src="https://raw.githubusercontent.com/KrishnaTranslationsKT/Translation-company/main/Untitled%20design.png" alt="Legal Translation Service">
+                <p>Specialized legal translation services for law firms.</p>
+            </div>
+            <div class="service">
+                <h3>Medical Translation</h3>
+                <img src="https://raw.githubusercontent.com/KrishnaTranslationsKT/Translation-company/main/www.krishnatranslations.com.png" alt="Medical Translation Service">
+                <p>Reliable medical translation services ensuring accuracy.</p>
+            </div>
+            <!-- Add more services as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="mailto:production@krishnatranslations.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="language">Language Pair:</label>
+                <input type="text" id="language" name="language" required>
+
+                <label for="service">Service Type:</label>
+                <select id="service" name="service">
+                    <option value="translation">Translation</option>
+                    <option value="interpretation">Interpretation</option>
+                    <option value="voiceover">Voice Over</option>
+                </select>
+
+                <label for="details">Additional Details:</label>
+                <textarea id="details" name="details"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Stay tuned for updates and translation tips!</p>
+            <img src="https://raw.githubusercontent.com/KrishnaTranslationsKT/Translation-company/main/background%20-%20cover.png" alt="Blog Background">
         </section>
     </main>
 
     <footer>
-        <p>Contact us for a 10% discount on your first order!</p>
-        <p>&copy; 2024 Krishna Translations. All rights reserved.</p>
+        <p>&copy; 2024 Krishna Translations. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
+
